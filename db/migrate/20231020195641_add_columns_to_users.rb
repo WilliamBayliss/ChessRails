@@ -4,5 +4,6 @@ class AddColumnsToUsers < ActiveRecord::Migration[7.0]
       t.string :username
       t.string :biography
       t.boolean :piecePreference
+    end
   end
 end
